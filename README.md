@@ -1,8 +1,34 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PROJECT DESCRIPTION
 
-Currently, two official plugins are available:
+The main goal of this project is to produce a secured  and privacy Q & A bot  for Network security course. Unlike  other bots, our bot is exclusively on local machine. Our bot is capable of answering questions which are related to network security course. Our bot is a user friendly interface  which provides a user-friendly interaction. Users can easily give the input questions and bot gives accurate and relevant answers It prioritize’s   privacy of the data by keeping all information on local machine.Data in bot is stored locally to eliminate internet issues.Bot is specialized in providing answers related to Network security documents.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+DOCUMENTATION
+
+SYSTEM ARCHITECTURE
+
+VIDEO
+
+REQUIREMENTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
