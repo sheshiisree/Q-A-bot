@@ -5,9 +5,15 @@ The main goal of this project is to produce a secured  and privacy Q & A bot  fo
 
 DOCUMENTATION
 
+
 SYSTEM ARCHITECTURE
+![image](https://github.com/sheshiisree/Q-A-bot/assets/147757630/abcd87be-6ffd-4a57-be04-abd706c73be7)
+
 
 VIDEO
+
+Prerequisites
+Install python 3.8
 
 REQUIREMENTS
 pip install blinker==1.7.0
@@ -88,6 +94,20 @@ tzdata==2023.3
 urllib3==2.1.0
 werkzeug==3.0.1
 zipp==3.17.0
+
+Step  by step instructions for executions
+First we run Backend
+Run requirements.txt and goto setup 
+In setup 
+pip install -r requirements.txt for windows 
+python app.py
+Run app.py
+run packages.json dependencies for front end-->npm i--> npm run start
+
+Features:
+Describe Training data and data formats
+ We trained our bot using network security documents 
+
 
 Result:
 ![result output](https://github.com/sheshiisree/Q-A-bot/assets/147757630/765ae15d-f11a-4f71-a6c1-c0e804c2dce6)
