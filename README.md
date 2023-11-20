@@ -12,6 +12,10 @@ SYSTEM ARCHITECTURE
 
 VIDEO
 
+https://github.com/sheshiisree/Q-A-bot/assets/147757630/891e804d-272f-48e4-8aa7-a153b99f3f33
+
+
+
 Prerequisites
 Install python 3.8
 
