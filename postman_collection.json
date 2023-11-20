@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "825bad4d-8636-4333-afd1-0a064af7edfe",
+		"name": "Ramu",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26448388",
+		"_collection_link": "https://cloudy-star-341327.postman.co/workspace/Sai-Projects~6801ca7b-a2a5-410e-98a8-c418ba9e7bfb/collection/26448388-825bad4d-8636-4333-afd1-0a064af7edfe?action=share&source=collection_link&creator=26448388"
+	},
+	"item": [
+		{
+			"name": "preload_data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/bot/preload_data",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"bot",
+						"preload_data"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/bot/preload_data",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"bot",
+								"preload_data"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 18 Nov 2023 21:43:57 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "50"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"data updated\",\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "answer_question",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"question\": \"Describe Network Security\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/bot/answer_question",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"bot",
+						"answer_question"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "answer_question",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"question\": \"Describe Network Security\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/bot/answer_question",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"bot",
+								"answer_question"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 18 Nov 2023 21:48:06 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "238"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"answer\": \"the protection afforded to an automated information system in order to attain the application objectives to preserving the integrity , availability , and confidentiality of information system resources\",\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "load_conversation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/bot/load_conversation?start_index=1&stop_index=3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"bot",
+						"load_conversation"
+					],
+					"query": [
+						{
+							"key": "start_index",
+							"value": "1"
+						},
+						{
+							"key": "stop_index",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "load_conversation",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/bot/load_conversation?start_index=1&stop_index=3",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"bot",
+								"load_conversation"
+							],
+							"query": [
+								{
+									"key": "start_index",
+									"value": "1"
+								},
+								{
+									"key": "stop_index",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 18 Nov 2023 22:00:27 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1149"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"answer\": \"the protection afforded to an automated information system in order to attain the application objectives to preserving the integrity , availability , and confidentiality of information system resources\",\n            \"created_date\": \"2023-11-18 21:48:04\",\n            \"id\": 6,\n            \"question\": \"Describe Network Security\",\n            \"updated_date\": \"2023-11-18 21:48:04\"\n        },\n        {\n            \"answer\": \"the protection afforded to an automated information system in order to attain the application objectives to preserving the integrity , availability , and confidentiality of information system resources\",\n            \"created_date\": \"2023-11-18 21:48:01\",\n            \"id\": 5,\n            \"question\": \"Describe Network Security\",\n            \"updated_date\": \"2023-11-18 21:48:01\"\n        },\n        {\n            \"answer\": \"assures that individual ' s control or influence what information related to them may be collected and stored and by whom and to whom that information may be disclosed\",\n            \"created_date\": \"2023-11-18 21:47:46\",\n            \"id\": 4,\n            \"question\": \"what is Privacy?\",\n            \"updated_date\": \"2023-11-18 21:47:46\"\n        }\n    ],\n    \"status\": true\n}"
+				}
+			]
+		}
+	]
+}

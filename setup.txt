@@ -1,0 +1,12 @@
+For Linux or Mac:
+pip install -r requirements.txt
+
+python3 app.py
+
+
+For Windows:
+pip install -r requirements.txt
+
+python app.py
+
+Note-1: dont delete context.txt file it is our data sorce 

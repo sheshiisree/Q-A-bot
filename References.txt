@@ -1,0 +1,11 @@
+1.Build a Chatbot Based on Your Own Documents with ChatGPT | Step-by-Step Guide –
+Vasos Koupparis (vasos-koupparis.com)
+2. Create a Powerful Chatbot with ChatGPT Using Your Documents (analyticsvidhya.com)
+3. How to Train an AI Chatbot With Custom Knowledge Base Using ChatGPT API |
+Beebom
+4. Create an Azure OpenAI, LangChain, ChromaDB, and Chainlit Chat App in Container
+Apps using Terraform - Microsoft Community Hub
+5. How to create a private ChatGPT that interacts with your local documents - TechTalks
+(bdtechtalks.com)
+6. What Product People Need To Know About LangChain | CommandBar Blog
+7. Host a Llama 2 API on GPU for Free | by Yuhong Sun | Aug, 2023 | Medium
