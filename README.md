@@ -112,6 +112,20 @@ Features:
 Describe Training data and data formats
  We trained our bot using network security documents 
 
+ References:
+1 https://github.com/alejandro-ao/langchain-ask-pdf
+2 https://www.youtube.com/watch?v=Coj72EzmX20
+3 Build a Chatbot Based on Your Own Documents with ChatGPT | Step-by-Step Guide –
+Vasos Koupparis (vasos-koupparis.com)
+4 Create a Powerful Chatbot with ChatGPT Using Your Documents (analyticsvidhya.com)
+5 How to Train an AI Chatbot With Custom Knowledge Base Using ChatGPT API |
+Beebom
+6 https://github.com/whitead/paper-qa
+7 https://github.com/langchain-ai/langchain/issues/4512
+8 How to Train an AI Chatbot With Custom Knowledge Base Using ChatGPT API |
+Beebom
+9 https://github.com/LLM-Projects/docs-qa-bot
+10 What Product People Need To Know About LangChain | CommandBar Blog
 
 Result:
 ![result output](https://github.com/sheshiisree/Q-A-bot/assets/147757630/765ae15d-f11a-4f71-a6c1-c0e804c2dce6)
