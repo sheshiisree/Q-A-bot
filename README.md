@@ -37,4 +37,11 @@ Visit http://localhost:5000 in your web browser to access the application.
 
 https://github.com/sheshiisree/Q-A-bot/assets/147757630/fce93e8d-400c-4b90-8216-f851f985d322
 
+#EXECUTION OUTPUTS
+![image](https://github.com/sheshiisree/Q-A-bot/assets/147757630/c8a5e895-1b2e-4ce8-b0b8-a1aa3d8117e6)
+![image](https://github.com/sheshiisree/Q-A-bot/assets/147757630/145e2173-a98e-4b9b-af4c-2091a9006f2d)
+![image](https://github.com/sheshiisree/Q-A-bot/assets/147757630/afb3073b-e21f-435b-a6ac-f278e4e8c915)
+
+
+
 
