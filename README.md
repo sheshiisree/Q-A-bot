@@ -32,3 +32,8 @@ Start the Flask app by running:
 python app.py
 ```
 Visit http://localhost:5000 in your web browser to access the application.
+
+##VIDEO
+
+https://github.com/sheshiisree/Q-A-bot/assets/147757630/daa58d87-575d-454e-9bb8-9ce25eaad30f
+
